@@ -6,6 +6,9 @@ namespace CharacterController
     [Serializable]
     public struct CharacterControllerData
     {
-        public LayerMask GroundDetectionLayer;
+        [Header("Jump")] 
+        public JumpData JumpData;
+        [Header("Ground Detection")]
+        public LayerDetectionData GroundLayerDetectionData;
     }
 }

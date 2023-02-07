@@ -2,9 +2,10 @@ namespace CharacterController
 {
     public interface ICollisionDetection
     {
-        public bool IsColliding { get; }
-        public float LastCollided { get; }
-        public void CheckDetection();
-
+        bool IsColliding { get; }
+        float LastCollided { get; }
+        float LastCollidedDifference { get; }
+        bool ShowDebug{ get; }
+        void CheckDetection();
     }
 }
