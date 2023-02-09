@@ -27,7 +27,6 @@ namespace CharacterController
             _groundDetection = groundDetection;
         }
 
-
         public void CheckJump()
         {
             if (_groundDetection.IsCollidingStarted)
@@ -56,8 +55,8 @@ namespace CharacterController
                 Jump();
             }
             
-            _jumpStep += Time.deltaTime;
-            _jumpBufferReminder -= Time.deltaTime;
+            _jumpStep += Time.fixedDeltaTime;
+            _jumpBufferReminder -= Time.fixedDeltaTime;
 
         }
 
@@ -74,11 +73,9 @@ namespace CharacterController
         
         private void Jump()
         {
-            Vector3 force = Vector3.up * (_jumpAccelerationCurve.Evaluate(_jumpStep) * _maxJumpForce * Time.deltaTime);
+            Vector3 force = Vector3.up * (_jumpAccelerationCurve.Evaluate(_jumpStep) * _maxJumpForce * Time.fixedDeltaTime);
             _jumperRB.AddForce(force, ForceMode.VelocityChange);
             _jumpStep = Mathf.Clamp01(_jumpStep + _jumpAccelerationSpeed * Time.deltaTime);
-           // Debug.Log($"Jump Step: {_jumpStep}");
-            //Debug.Log($"Force: {force}");
         }
 
     }

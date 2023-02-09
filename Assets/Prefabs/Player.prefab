@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 4525071320681843779}
   - component: {fileID: 4757437682630011981}
   - component: {fileID: 4525071320681843783}
+  - component: {fileID: 4508324615598471795}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -144,6 +145,8 @@ MonoBehaviour:
   _characterControllerData:
     PhysicsData:
       Rigidbody: {fileID: 4757437682630011981}
+    MoveData:
+      MoveForce: 200
     JumpData:
       JumpAccelerationCurve:
         serializedVersion: 2
@@ -178,7 +181,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      MaxJumpForce: 300
+      MaxJumpForce: 100
       JumpAccelerationSpeed: 1
       CoyoteTime: 0.3
       JumpBuffer: 0.3
@@ -190,6 +193,36 @@ MonoBehaviour:
       CollisionCenter: {fileID: 4525071320426392250}
       DetectionArea: 0.1
       ShowDebug: 0
+--- !u!114 &4508324615598471795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4525071320681843778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &4525071321069900516
 GameObject:
   m_ObjectHideFlags: 0

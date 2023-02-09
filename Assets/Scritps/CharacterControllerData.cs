@@ -8,6 +8,8 @@ namespace CharacterController
     {
         [Header("Physics")]
         public PhysicsData PhysicsData;
+        [Header("Move")] 
+        public MoveData MoveData;
         [Header("Jump")] 
         public JumpData JumpData;
         [Header("Ground Detection")]
