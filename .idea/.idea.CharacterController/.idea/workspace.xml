@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed74f6f7-4be9-4066-9809-4dfa811df172" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/JumpLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/JumpLogic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/PhysicsData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/PhysicsData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/IJumpLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/IJumpLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/JumpData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/JumpData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/LayerCollisionDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/LayerCollisionDetection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/LayerDetectionData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/LayerDetectionData.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ed74f6f7-4be9-4066-9809-4dfa811df172" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +72,7 @@
       <workItem from="1675803666670" duration="4387000" />
       <workItem from="1675808260240" duration="1318000" />
       <workItem from="1675931518572" duration="5566000" />
-      <workItem from="1675960085404" duration="4782000" />
+      <workItem from="1675960085404" duration="5577000" />
     </task>
     <servers />
   </component>
