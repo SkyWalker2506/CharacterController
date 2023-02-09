@@ -454,5 +454,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4525071320681843783, guid: 879a5d4e9f4136f46921977adcece999, type: 3}
+      propertyPath: _characterControllerData.JumpData.CoyoteTime
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525071320681843783, guid: 879a5d4e9f4136f46921977adcece999, type: 3}
+      propertyPath: _characterControllerData.JumpData.JumpBuffer
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525071320681843783, guid: 879a5d4e9f4136f46921977adcece999, type: 3}
+      propertyPath: _characterControllerData.JumpData.JumpAccelerationCurve.m_Curve.Array.data[1].time
+      value: 0.18325731
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525071320681843783, guid: 879a5d4e9f4136f46921977adcece999, type: 3}
+      propertyPath: _characterControllerData.JumpData.JumpAccelerationCurve.m_Curve.Array.data[1].value
+      value: 0.19804136
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 879a5d4e9f4136f46921977adcece999, type: 3}

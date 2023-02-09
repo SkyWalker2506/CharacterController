@@ -4,10 +4,11 @@ using UnityEngine;
 namespace CharacterController
 {
     [Serializable]
-    public struct LayerDetectionData
+    public class LayerDetectionData
     {
         public LayerMask DetectionLayer;
         public Transform CollisionCenter;
-        public float DetectionArea;     
+        public float DetectionArea;
+        public bool ShowDebug;
     }
 }

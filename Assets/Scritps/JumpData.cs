@@ -4,12 +4,13 @@ using UnityEngine;
 namespace CharacterController
 {
     [Serializable]
-    public struct JumpData
+    public class JumpData
     {
         public AnimationCurve JumpAccelerationCurve;
-        public float MaxJumpHeight;        
+        public float MaxJumpForce;        
         public float JumpAccelerationSpeed;
         public float CoyoteTime;
         public float JumpBuffer;
+        public int JumpLimitBeforeGrounded;
     }
 }

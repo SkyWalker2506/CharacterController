@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed74f6f7-4be9-4066-9809-4dfa811df172" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/JumpLogic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/JumpLogic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/PhysicsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/PhysicsData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/IJumpLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/IJumpLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/JumpData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/JumpData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scritps/LayerCollisionDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/LayerCollisionDetection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/LayerDetectionData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/LayerDetectionData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,19 +29,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LQWCwu4NfPAcJZeXaP5iBwSVpG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.31363636",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\Editor\2021.3.18f1\Editor\Unity.exe" />
@@ -55,10 +65,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25784">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="25784" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -76,6 +86,8 @@
       <updated>1675803665002</updated>
       <workItem from="1675803666670" duration="4387000" />
       <workItem from="1675808260240" duration="1318000" />
+      <workItem from="1675931518572" duration="5566000" />
+      <workItem from="1675960085404" duration="4782000" />
     </task>
     <servers />
   </component>
@@ -98,5 +110,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scritps/JumpLogic.cs</url>
+          <line>44</line>
+          <properties documentPath="F:\Unity\Packages\CharacterController\Assets\Scritps\JumpLogic.cs" initialLine="45" containingFunctionPresentation="method 'CheckJump'">
+            <startOffsets>
+              <option value="1762" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1777" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
