@@ -22,7 +22,7 @@ namespace CharacterController
             _showDebug = layerDetectionData.ShowDebug;
         }
         
-        public void CheckDetection()
+        public void Update()
         {
             if (Physics.OverlapSphere(_collisionCenter.position, _detectionArea, _detectionLayer).Length > 0)
             {

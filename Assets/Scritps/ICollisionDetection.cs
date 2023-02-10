@@ -7,6 +7,6 @@ namespace CharacterController
         bool IsCollidingEnded { get; }
         float LastCollided { get; }
         float LastCollidedDifference { get; }
-        void CheckDetection();
+        void Update();
     }
 }

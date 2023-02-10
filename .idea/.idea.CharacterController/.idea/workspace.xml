@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed74f6f7-4be9-4066-9809-4dfa811df172" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IMoveLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IMoveLogic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/MoveData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/MoveData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/MoveLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/MoveLogic.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/IJumpLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/IJumpLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/IMoveLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/IMoveLogic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scritps/JumpLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/JumpLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/LayerCollisionDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/LayerCollisionDetection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/MoveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/MoveData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/MoveLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/MoveLogic.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ca7bdfed5874f329433256f548490641a000/03/9c554912/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -87,6 +87,7 @@
       <workItem from="1675931518572" duration="5566000" />
       <workItem from="1675960085404" duration="9973000" />
       <workItem from="1675974146645" duration="335000" />
+      <workItem from="1675983805326" duration="2777000" />
     </task>
     <servers />
   </component>
@@ -118,10 +119,10 @@
           <line>43</line>
           <properties documentPath="F:\Unity\Packages\CharacterController\Assets\Scritps\JumpLogic.cs" initialLine="45" containingFunctionPresentation="method 'CheckJump'">
             <startOffsets>
-              <option value="1761" />
+              <option value="1758" />
             </startOffsets>
             <endOffsets>
-              <option value="1776" />
+              <option value="1773" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

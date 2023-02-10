@@ -2,7 +2,7 @@ namespace CharacterController
 {
     public interface IJumpLogic
     {
-        void CheckJump();
+        void Update();
         void CallJump();
         void CallJumpRelease();
     }

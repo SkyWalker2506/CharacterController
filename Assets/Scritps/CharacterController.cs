@@ -30,7 +30,6 @@ namespace CharacterController
         {
             _playerInputActions.Disable();
         }
-
         
         private void Update()
         {
@@ -42,10 +41,10 @@ namespace CharacterController
             {
                 _jumpLogic.CallJumpRelease();    
             }
-            _moveLogic.CallMove(_playerInputActions.Player.Move.ReadValue<Vector2>());
-            _groundDetection.CheckDetection();
-            _jumpLogic.CheckJump();
-            _moveLogic.CheckMove();
+            _moveLogic.SetDirection(_playerInputActions.Player.Move.ReadValue<Vector2>());
+            _groundDetection.Update();
+            _jumpLogic.Update();
+            _moveLogic.Update();
         }
     }
 }

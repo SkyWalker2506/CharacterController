@@ -27,7 +27,7 @@ namespace CharacterController
             _groundDetection = groundDetection;
         }
 
-        public void CheckJump()
+        public void Update()
         {
             if (_groundDetection.IsCollidingStarted)
             {

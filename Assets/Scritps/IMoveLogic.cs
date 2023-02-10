@@ -4,8 +4,7 @@ namespace CharacterController
 {
     public interface IMoveLogic
     {
-        void CheckMove();
-        void CallMove(Vector2 direction);
-        void CallMoveRelease();
+        void Update();
+        void SetDirection(Vector2 direction);
     }
 }
