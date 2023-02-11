@@ -12,6 +12,8 @@ namespace CharacterController
         public MoveData MoveData;
         [Header("Jump")] 
         public JumpData JumpData;
+        [Header("MoveVFXData")] 
+        public VFXData VFXData;
         [Header("Ground Detection")]
         public LayerDetectionData GroundLayerDetectionData;
     }

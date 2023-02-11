@@ -4,6 +4,8 @@ namespace CharacterController
 {
     public class MoveLogic : IMoveLogic
     {
+        public bool IsMoving { get; private set;}
+        
         private Rigidbody _moverRB;
         private MoveData _moveData;
         private Vector2 _direction;
@@ -13,7 +15,8 @@ namespace CharacterController
             _moverRB = moverRB;
             _moveData = moveData;
         }
-        
+
+
         public void Update()
         {
             Move();
@@ -32,17 +35,28 @@ namespace CharacterController
                 velocity.x *=1-_moveData.DragForce * Time.deltaTime;
                 velocity.z *=1-_moveData.DragForce * Time.deltaTime;
                 _moverRB.velocity = velocity;
+                IsMoving = false;
             }
             else
             {
-                Vector3 force = (Vector3.right * _direction.x + Vector3.forward * _direction.y) * (_moveData.MoveForce * Time.fixedDeltaTime); 
+                Vector3 force = 
+                    //(_moverRB.transform.right * _direction.x + _moverRB.transform.forward * _direction.y)
+                    _moverRB.transform.forward 
+                    * (_moveData.MoveForce * Time.fixedDeltaTime); 
                 _moverRB.AddForce(force);
+                RotateTo(_direction.normalized);
                 Vector3 velocity = _moverRB.velocity;
                 velocity.x = Mathf.Clamp(velocity.x,-_moveData.MaxMoveSpeed,_moveData.MaxMoveSpeed);
                 velocity.z = Mathf.Clamp(velocity.z,-_moveData.MaxMoveSpeed,_moveData.MaxMoveSpeed);
-                Debug.Log(velocity);
                 _moverRB.velocity = velocity;
+                IsMoving = true;
             }
+        }
+
+        private void RotateTo(Vector2 direction)
+        {
+            
+            _moverRB.MoveRotation(Quaternion.LookRotation(new Vector3(direction.x,0,direction.y), Vector3.up));
         }
     }
 }

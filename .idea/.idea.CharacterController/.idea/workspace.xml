@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed74f6f7-4be9-4066-9809-4dfa811df172" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IApplyForce.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IApplyForce.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/ICollisionDetection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IAnimationLogic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IAnimationLogic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IVFXLogic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/IVFXLogic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/VFXData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/VFXData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/VFXMoveLogic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scritps/VFXMoveLogic.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PhysicMaterial/Player.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PhysicMaterial/Player.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonFarm/Demo/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonFarm/Demo/Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/CharacterControllerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/IMoveLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/IMoveLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scritps/MoveLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scritps/MoveLogic.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.52975047",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.52975047&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\musab\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\musab\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\musab\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\musab\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\musab\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\musab\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\Editor\2021.3.18f1\Editor\Unity.exe" />
@@ -70,10 +83,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="69464">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="69464" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -96,6 +109,7 @@
       <workItem from="1675974146645" duration="335000" />
       <workItem from="1675983805326" duration="3440000" />
       <workItem from="1676075630667" duration="310000" />
+      <workItem from="1676142778295" duration="9038000" />
     </task>
     <servers />
   </component>
@@ -134,6 +148,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scritps/VFXMoveLogic.cs</url>
+          <line>21</line>
+          <properties documentPath="F:\Unity\Packages\CharacterController\Assets\Scritps\VFXMoveLogic.cs" initialLine="21" containingFunctionPresentation="method 'Update'">
+            <startOffsets>
+              <option value="692" />
+            </startOffsets>
+            <endOffsets>
+              <option value="723" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
