@@ -41,9 +41,9 @@ namespace CharacterController
             {
                 _jumpLogic.CallJumpRelease();    
             }
-            _moveLogic.SetDirection(_playerInputActions.Player.Move.ReadValue<Vector2>());
             _groundDetection.Update();
             _jumpLogic.Update();
+            _moveLogic.SetDirection(_playerInputActions.Player.Move.ReadValue<Vector2>());
             _moveLogic.Update();
         }
     }

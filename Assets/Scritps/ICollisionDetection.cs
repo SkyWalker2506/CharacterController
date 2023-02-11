@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace CharacterController
 {
     public interface ICollisionDetection
